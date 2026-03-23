@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Spot Reduction",
+    "category": "Skin",
+    "description": "The biggest myth is that lash extensions ruin your own lashes. They do not. If applied.",
+    "price": 349,
+    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&q=80&w=400"
+  },
+  {
+    "id": 2,
+    "name": "Eyelash Extension",
+    "category": "Face",
+    "description": "The biggest myth is that lash extensions ruin your own lashes. They do not. If applied.",
+    "price": 319,
+    "image": "asset/EYE-CARE-LASH-EXTENSIONS11.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Herbal Skincare",
+    "category": "Skin",
+    "description": "The biggest myth is that lash extensions ruin your own lashes. They do not. If applied.",
+    "price": 499,
+    "image": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=400"
+  },
+  {
+    "id": 4,
+    "name": "Hair Treatments",
+    "category": "Hair",
+    "description": "Revitalize your hair with our deeply nourishing and strengthening hair treatment sessions.",
+    "price": 299,
+    "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=400"
+  },
+  {
+    "id": 5,
+    "name": "Facial Massage",
+    "category": "Face",
+    "description": "Relax and rejuvenate with a gentle, stimulating facial massage for better circulation.",
+    "price": 199,
+    "image": "asset/Facial Massage.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Ultra Glow Therapy",
+    "category": "Therapy",
+    "description": "Experience our signature glowing therapy designed to give your skin a clear, radiant shine.",
+    "price": 599,
+    "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=400"
+  }
+]
