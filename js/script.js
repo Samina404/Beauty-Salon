@@ -105,13 +105,15 @@ $(document).ready(function() {
       }
     });
 
-    // Email validation specifically
-    const emailField = $(this).find('input[type="email"]');
-    const emailPattern = /^[a-zA-Z0-Exp]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-    if (emailField.val() && !emailPattern.test(emailField.val())) {
-        emailField.addClass('is-invalid');
-        isValid = false;
-    }
+    // Phone & WhatsApp validation specifically
+    $(this).find('input[type="tel"]').each(function() {
+        const phoneValue = $(this).val();
+        const phonePattern = /^[+]?[0-9\s-]{7,15}$/;
+        if (phoneValue && !phonePattern.test(phoneValue)) {
+            $(this).addClass('is-invalid');
+            isValid = false;
+        }
+    });
 
     if (isValid) {
       alert('Thank you for contacting us! We will get back to you soon.');
@@ -160,7 +162,7 @@ $(document).ready(function() {
   }, observerOptions);
 
   // Add initial fade-up class to elements
-  $('section h2, section h1, .about-subtitle, .treatment-card, .testimonial-card, #contact-form').addClass('fade-up');
+  $('section h2, section h1, .about-subtitle, .treatment-card, .testimonial-card, .gallery-item, #contact-form').addClass('fade-up');
   
   $('.fade-up').each(function() {
     observer.observe(this);

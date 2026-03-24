@@ -50,6 +50,9 @@
                             <a class="nav-link" href="#testimonials">Testimonials</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
@@ -295,6 +298,84 @@
             </div>
         </section>
 
+        <!-- Gallery Section -->
+        <section id="gallery" class="py-5 bg-light-gray">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <span class="about-subtitle">Our Gallery</span>
+                    <h2 class="section-title mt-2">Glimpse of Our Work</h2>
+                </div>
+                <div class="row g-4 gallery-grid">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="gallery-item overflow-hidden position-relative shadow-sm h-100">
+                            <img src="/asset//hair.jpg" alt="Hair Styling" class="img-fluid w-100 h-100 object-fit-cover">
+                            <div class="gallery-overlay d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <h4 class="text-white font-heading">Hair Styling</h4>
+                                    <span class="text-gold text-uppercase small tracking-wide">Professional Cuts</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="gallery-item overflow-hidden position-relative shadow-sm h-100">
+                            <img src="https://tse1.explicit.bing.net/th/id/OIP.pvaKWYs96aTSKpbYMQdIGQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Facial Treatment" class="img-fluid w-100 h-100 object-fit-cover">
+                            <div class="gallery-overlay d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <h4 class="text-white font-heading">Facial Glow</h4>
+                                    <span class="text-gold text-uppercase small tracking-wide">Skin Care</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="gallery-item overflow-hidden position-relative shadow-sm h-100">
+                            <img src="https://images.nightcafe.studio/galleries/JLqhLk2sY9UQVk9ADebO/a_closeup_highly_detailed_macro--1--o9xk7.jpg" alt="Nail Art" class="img-fluid w-100 h-100 object-fit-cover">
+                            <div class="gallery-overlay d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <h4 class="text-white font-heading">Nail Art</h4>
+                                    <span class="text-gold text-uppercase small tracking-wide">Luxury Manicure</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="gallery-item overflow-hidden position-relative shadow-sm h-100">
+                            <img src="/asset//relax-massage.jpg" alt="Massage Therapy" class="img-fluid w-100 h-100 object-fit-cover">
+                            <div class="gallery-overlay d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <h4 class="text-white font-heading">Relaxing Massage</h4>
+                                    <span class="text-gold text-uppercase small tracking-wide">Body Wellness</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="gallery-item overflow-hidden position-relative shadow-sm h-100">
+                            <img src="/asset//bridalmakeup.jpg" alt="Makeup" class="img-fluid w-100 h-100 object-fit-cover">
+                            <div class="gallery-overlay d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <h4 class="text-white font-heading">Bridal Makeup</h4>
+                                    <span class="text-gold text-uppercase small tracking-wide">Expert Glamour</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="gallery-item overflow-hidden position-relative shadow-sm h-100">
+                            <img src="/asset//EYE-CARE-LASH-EXTENSIONS11.jpg" alt="Eye Treatments" class="img-fluid w-100 h-100 object-fit-cover">
+                            <div class="gallery-overlay d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <h4 class="text-white font-heading">Eye Treatments</h4>
+                                    <span class="text-gold text-uppercase small tracking-wide">Lashes & Brows</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Contact Section -->
         <section id="contact" class="py-5 bg-white">
             <div class="container">
@@ -318,10 +399,15 @@
                                     <input type="text" class="form-control" required>
                                     <div class="invalid-feedback">Please enter your last name.</div>
                                 </div>
-                                <div class="col-12">
-                                    <label class="form-label font-heading text-dark fw-bold">Email Address</label>
-                                    <input type="email" class="form-control" required>
-                                    <div class="invalid-feedback">Please enter a valid email.</div>
+                                <div class="col-md-6">
+                                    <label class="form-label font-heading text-dark fw-bold">WhatsApp Number</label>
+                                    <input type="tel" class="form-control" placeholder="+123 456 7890" required>
+                                    <div class="invalid-feedback">Please enter your WhatsApp number.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label font-heading text-dark fw-bold">Mobile Number</label>
+                                    <input type="tel" class="form-control" placeholder="+123 456 7890" required>
+                                    <div class="invalid-feedback">Please enter your mobile number.</div>
                                 </div>
                                 <div class="col-12">
                                     <label class="form-label font-heading text-dark fw-bold">Message</label>
@@ -355,6 +441,7 @@
                     <div class="d-flex gap-2 mt-4">
                         <a href="#" class="btn btn-square"><i class="fab fa-twitter"></i></a>
                         <a href="#" class="btn btn-square"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-square"><i class="fab fa-whatsapp"></i></a>
                         <a href="#" class="btn btn-square"><i class="fab fa-youtube"></i></a>
                         <a href="#" class="btn btn-square"><i class="fab fa-linkedin-in"></i></a>
                     </div>
@@ -372,6 +459,9 @@
                         <li class="mb-3"><a href="#testimonials"><i
                                     class="fas fa-chevron-right me-2 text-primary-custom small"></i>Testimonials</a>
                         </li>
+                        <li class="mb-3"><a href="#gallery"><i
+                                    class="fas fa-chevron-right me-2 text-primary-custom small"></i>Gallery</a>
+                        </li>
                         <li class="mb-3"><a href="#contact"><i
                                     class="fas fa-chevron-right me-2 text-primary-custom small"></i>Contact Us</a></li>
                     </ul>
@@ -388,8 +478,8 @@
                             <span>+0123456789</span>
                         </li>
                         <li class="mb-3 d-flex align-items-center">
-                            <i class="fas fa-envelope text-primary-custom me-3 fs-5"></i>
-                            <span>hello@makeoversalon.com</span>
+                            <i class="fab fa-whatsapp text-primary-custom me-3 fs-5"></i>
+                            <a href="https://wa.me/0123456789" target="_blank" class="text-light text-decoration-none">WhatsApp</a>
                         </li>
                     </ul>
                 </div>
